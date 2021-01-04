@@ -42,7 +42,7 @@
           <a class="nav-link" href="{{url('/fotoguru1') }}">Foto Guru</a>
           @endcan
           </li>
-          
+<!--           
          <li class="nav-item active">
             <a class="nav-link" href="/home1">Home
               <span class="sr-only"></span>
@@ -62,7 +62,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/fotoguru1">Foto Guru</a>
-          </li>
+          </li> -->
 
           <li class="nav-item {{ Route::is('siswa') ? 'active' : '' }}">
           @can('manage-siswa')
